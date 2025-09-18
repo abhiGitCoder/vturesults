@@ -3,6 +3,7 @@ import { HelmetProvider } from "react-helmet-async";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import ResultPage from "./pages/ResultPage";
+import Results from "./pages/Results";
 
 const App: React.FC = () => {
   return (
@@ -13,7 +14,7 @@ const App: React.FC = () => {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/result" element={<ResultPage />} />
-
+              <Route path="/results" element={<Results />} /> 
             </Routes>
           </main>
         </div>
