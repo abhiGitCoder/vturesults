@@ -11,7 +11,7 @@ const ResultPage: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (usn === "4VM23EE013" && captcha === "4TKJRP") {
+    if (usn === "4VM23EE027" && captcha === "4TkJ3P") {
       navigate("/results"); // Redirect to Results page
     } else {
       alert("Invalid USN or Captcha");

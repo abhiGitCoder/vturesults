@@ -1,5 +1,5 @@
 import React from "react";
-import results from "../assets/results.jpg";
+import results from "../assets/lahari.jpeg";
 
 const Results: React.FC = () => {
   return (
